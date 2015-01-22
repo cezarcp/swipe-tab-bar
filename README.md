@@ -1,6 +1,6 @@
 # SwipeTabBarController
 
-A simple `UITabBarController` which allows changing tabs with left and right swipe gestures on the tab bar.
+A simple `UITabBarController` sublcass which allows changing tabs with left and right swipe gestures on the tab bar.
 
 #Why?
 
