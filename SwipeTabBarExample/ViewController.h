@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FirstViewController.h
 //  SwipeTabBar
 //
 //  Created by Cezar Carvalho Pereira on 22/1/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ViewController : UIViewController
 
 
 @end

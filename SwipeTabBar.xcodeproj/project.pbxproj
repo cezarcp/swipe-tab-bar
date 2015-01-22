@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		F7B2BA481A71851C00DD1FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA471A71851C00DD1FCA /* main.m */; };
 		F7B2BA4B1A71851C00DD1FCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA4A1A71851C00DD1FCA /* AppDelegate.m */; };
-		F7B2BA4E1A71851C00DD1FCA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA4D1A71851C00DD1FCA /* FirstViewController.m */; };
-		F7B2BA511A71851C00DD1FCA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA501A71851C00DD1FCA /* SecondViewController.m */; };
+		F7B2BA4E1A71851C00DD1FCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA4D1A71851C00DD1FCA /* ViewController.m */; };
 		F7B2BA541A71851C00DD1FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B2BA521A71851C00DD1FCA /* Main.storyboard */; };
 		F7B2BA561A71851C00DD1FCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B2BA551A71851C00DD1FCA /* Images.xcassets */; };
 		F7B2BA591A71851C00DD1FCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B2BA571A71851C00DD1FCA /* LaunchScreen.xib */; };
 		F7B2BA651A71851D00DD1FCA /* SwipeTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA641A71851D00DD1FCA /* SwipeTabBarTests.m */; };
+		F7B2BA701A71859400DD1FCA /* SwipeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA6F1A71859400DD1FCA /* SwipeTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,18 +31,18 @@
 		F7B2BA421A71851C00DD1FCA /* SwipeTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B2BA461A71851C00DD1FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B2BA471A71851C00DD1FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F7B2BA491A71851C00DD1FCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F7B2BA4A1A71851C00DD1FCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7B2BA4C1A71851C00DD1FCA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		F7B2BA4D1A71851C00DD1FCA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		F7B2BA4F1A71851C00DD1FCA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		F7B2BA501A71851C00DD1FCA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F7B2BA491A71851C00DD1FCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../SwipeTabBarExample/AppDelegate.h; sourceTree = "<group>"; };
+		F7B2BA4A1A71851C00DD1FCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../SwipeTabBarExample/AppDelegate.m; sourceTree = "<group>"; };
+		F7B2BA4C1A71851C00DD1FCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../SwipeTabBarExample/ViewController.h; sourceTree = "<group>"; };
+		F7B2BA4D1A71851C00DD1FCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../SwipeTabBarExample/ViewController.m; sourceTree = "<group>"; };
 		F7B2BA531A71851C00DD1FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7B2BA551A71851C00DD1FCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7B2BA551A71851C00DD1FCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../SwipeTabBarExample/Images.xcassets; sourceTree = "<group>"; };
 		F7B2BA581A71851C00DD1FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F7B2BA5E1A71851D00DD1FCA /* SwipeTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B2BA631A71851D00DD1FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B2BA641A71851D00DD1FCA /* SwipeTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTabBarTests.m; sourceTree = "<group>"; };
+		F7B2BA6E1A71859400DD1FCA /* SwipeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeTabBarController.h; path = SwipeTabBarController/SwipeTabBarController.h; sourceTree = "<group>"; };
+		F7B2BA6F1A71859400DD1FCA /* SwipeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeTabBarController.m; path = SwipeTabBarController/SwipeTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,8 @@
 		F7B2BA391A71851C00DD1FCA = {
 			isa = PBXGroup;
 			children = (
-				F7B2BA441A71851C00DD1FCA /* SwipeTabBar */,
+				F7B2BA711A718F4E00DD1FCA /* SwipeTabBarController */,
+				F7B2BA441A71851C00DD1FCA /* SwipeTabBarExample */,
 				F7B2BA611A71851D00DD1FCA /* SwipeTabBarTests */,
 				F7B2BA431A71851C00DD1FCA /* Products */,
 			);
@@ -81,20 +82,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7B2BA441A71851C00DD1FCA /* SwipeTabBar */ = {
+		F7B2BA441A71851C00DD1FCA /* SwipeTabBarExample */ = {
 			isa = PBXGroup;
 			children = (
 				F7B2BA491A71851C00DD1FCA /* AppDelegate.h */,
 				F7B2BA4A1A71851C00DD1FCA /* AppDelegate.m */,
-				F7B2BA4C1A71851C00DD1FCA /* FirstViewController.h */,
-				F7B2BA4D1A71851C00DD1FCA /* FirstViewController.m */,
-				F7B2BA4F1A71851C00DD1FCA /* SecondViewController.h */,
-				F7B2BA501A71851C00DD1FCA /* SecondViewController.m */,
+				F7B2BA4C1A71851C00DD1FCA /* ViewController.h */,
+				F7B2BA4D1A71851C00DD1FCA /* ViewController.m */,
 				F7B2BA521A71851C00DD1FCA /* Main.storyboard */,
 				F7B2BA551A71851C00DD1FCA /* Images.xcassets */,
 				F7B2BA571A71851C00DD1FCA /* LaunchScreen.xib */,
 				F7B2BA451A71851C00DD1FCA /* Supporting Files */,
 			);
+			name = SwipeTabBarExample;
 			path = SwipeTabBar;
 			sourceTree = "<group>";
 		};
@@ -105,6 +105,7 @@
 				F7B2BA471A71851C00DD1FCA /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ../SwipeTabBarExample;
 			sourceTree = "<group>";
 		};
 		F7B2BA611A71851D00DD1FCA /* SwipeTabBarTests */ = {
@@ -122,6 +123,15 @@
 				F7B2BA631A71851D00DD1FCA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7B2BA711A718F4E00DD1FCA /* SwipeTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F7B2BA6E1A71859400DD1FCA /* SwipeTabBarController.h */,
+				F7B2BA6F1A71859400DD1FCA /* SwipeTabBarController.m */,
+			);
+			name = SwipeTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +183,7 @@
 				TargetAttributes = {
 					F7B2BA411A71851C00DD1FCA = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = RV6DV4ZH2W;
 					};
 					F7B2BA5D1A71851D00DD1FCA = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -224,9 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7B2BA511A71851C00DD1FCA /* SecondViewController.m in Sources */,
+				F7B2BA701A71859400DD1FCA /* SwipeTabBarController.m in Sources */,
 				F7B2BA4B1A71851C00DD1FCA /* AppDelegate.m in Sources */,
-				F7B2BA4E1A71851C00DD1FCA /* FirstViewController.m in Sources */,
+				F7B2BA4E1A71851C00DD1FCA /* ViewController.m in Sources */,
 				F7B2BA481A71851C00DD1FCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +267,7 @@
 				F7B2BA531A71851C00DD1FCA /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../SwipeTabBarExample;
 			sourceTree = "<group>";
 		};
 		F7B2BA571A71851C00DD1FCA /* LaunchScreen.xib */ = {
@@ -264,6 +276,7 @@
 				F7B2BA581A71851C00DD1FCA /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ../SwipeTabBarExample;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,7 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwipeTabBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwipeTabBarExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,7 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwipeTabBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwipeTabBarExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

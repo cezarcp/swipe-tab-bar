@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  FirstViewController.m
 //  SwipeTabBar
 //
 //  Created by Cezar Carvalho Pereira on 22/1/15.
 //  Copyright (c) 2015 Wavebits. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ViewController.h"
 
-@interface SecondViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

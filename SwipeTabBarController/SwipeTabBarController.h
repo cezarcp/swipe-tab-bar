@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SwipeTabBarController.h
 //  SwipeTabBar
 //
 //  Created by Cezar Carvalho Pereira on 22/1/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface SwipeTabBarController : UITabBarController
 
+@property (nonatomic, assign) BOOL cyclesThroughTabs;
 
 @end
-
