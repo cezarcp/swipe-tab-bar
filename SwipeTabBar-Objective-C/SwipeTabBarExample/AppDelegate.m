@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UITabBarController+Swipe.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    [tabBarController setupSwipeGestureRecognizersAllowCyclingThroughTabs:YES];
+    
     return YES;
 }
 

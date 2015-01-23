@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F75BC49F1A72B6C1006EFA87 /* UITabBarController+Swipe.m in Sources */ = {isa = PBXBuildFile; fileRef = F75BC49E1A72B6C1006EFA87 /* UITabBarController+Swipe.m */; };
 		F7B2BA481A71851C00DD1FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA471A71851C00DD1FCA /* main.m */; };
 		F7B2BA4B1A71851C00DD1FCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA4A1A71851C00DD1FCA /* AppDelegate.m */; };
 		F7B2BA4E1A71851C00DD1FCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA4D1A71851C00DD1FCA /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		F7B2BA561A71851C00DD1FCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B2BA551A71851C00DD1FCA /* Images.xcassets */; };
 		F7B2BA591A71851C00DD1FCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B2BA571A71851C00DD1FCA /* LaunchScreen.xib */; };
 		F7B2BA651A71851D00DD1FCA /* SwipeTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA641A71851D00DD1FCA /* SwipeTabBarTests.m */; };
-		F7B2BA701A71859400DD1FCA /* SwipeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B2BA6F1A71859400DD1FCA /* SwipeTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F75BC49D1A72B6C1006EFA87 /* UITabBarController+Swipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+Swipe.h"; path = "SwipeTabBar/UITabBarController+Swipe.h"; sourceTree = "<group>"; };
+		F75BC49E1A72B6C1006EFA87 /* UITabBarController+Swipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+Swipe.m"; path = "SwipeTabBar/UITabBarController+Swipe.m"; sourceTree = "<group>"; };
 		F7B2BA421A71851C00DD1FCA /* SwipeTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B2BA461A71851C00DD1FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B2BA471A71851C00DD1FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		F7B2BA5E1A71851D00DD1FCA /* SwipeTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B2BA631A71851D00DD1FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B2BA641A71851D00DD1FCA /* SwipeTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTabBarTests.m; sourceTree = "<group>"; };
-		F7B2BA6E1A71859400DD1FCA /* SwipeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeTabBarController.h; path = SwipeTabBarController/SwipeTabBarController.h; sourceTree = "<group>"; };
-		F7B2BA6F1A71859400DD1FCA /* SwipeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeTabBarController.m; path = SwipeTabBarController/SwipeTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 		F7B2BA391A71851C00DD1FCA = {
 			isa = PBXGroup;
 			children = (
-				F7B2BA711A718F4E00DD1FCA /* SwipeTabBarController */,
+				F7B2BA711A718F4E00DD1FCA /* SwipeTabBarExtension */,
 				F7B2BA441A71851C00DD1FCA /* SwipeTabBarExample */,
 				F7B2BA611A71851D00DD1FCA /* SwipeTabBarTests */,
 				F7B2BA431A71851C00DD1FCA /* Products */,
@@ -94,8 +94,7 @@
 				F7B2BA571A71851C00DD1FCA /* LaunchScreen.xib */,
 				F7B2BA451A71851C00DD1FCA /* Supporting Files */,
 			);
-			name = SwipeTabBarExample;
-			path = SwipeTabBar;
+			path = SwipeTabBarExample;
 			sourceTree = "<group>";
 		};
 		F7B2BA451A71851C00DD1FCA /* Supporting Files */ = {
@@ -125,13 +124,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F7B2BA711A718F4E00DD1FCA /* SwipeTabBarController */ = {
+		F7B2BA711A718F4E00DD1FCA /* SwipeTabBarExtension */ = {
 			isa = PBXGroup;
 			children = (
-				F7B2BA6E1A71859400DD1FCA /* SwipeTabBarController.h */,
-				F7B2BA6F1A71859400DD1FCA /* SwipeTabBarController.m */,
+				F75BC49D1A72B6C1006EFA87 /* UITabBarController+Swipe.h */,
+				F75BC49E1A72B6C1006EFA87 /* UITabBarController+Swipe.m */,
 			);
-			name = SwipeTabBarController;
+			name = SwipeTabBarExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7B2BA701A71859400DD1FCA /* SwipeTabBarController.m in Sources */,
+				F75BC49F1A72B6C1006EFA87 /* UITabBarController+Swipe.m in Sources */,
 				F7B2BA4B1A71851C00DD1FCA /* AppDelegate.m in Sources */,
 				F7B2BA4E1A71851C00DD1FCA /* ViewController.m in Sources */,
 				F7B2BA481A71851C00DD1FCA /* main.m in Sources */,
@@ -433,6 +432,7 @@
 				F7B2BA6A1A71851D00DD1FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7B2BA6B1A71851D00DD1FCA /* Build configuration list for PBXNativeTarget "SwipeTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +441,7 @@
 				F7B2BA6D1A71851D00DD1FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
