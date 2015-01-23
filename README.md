@@ -25,7 +25,7 @@ You can also set the `cyclesThroughViewControllers` to alter the bahvior when sw
 
 ##Swift
 
-Include `SwipeTabBarControllerExtension.swift` in your project. Inside `application:DidFinishLauncingWithOptions:` setup the gesture recognizer as follows:
+Include `TabBarControllerSwipeExtension.swift` in your project. Inside `application:DidFinishLauncingWithOptions:` setup the gesture recognizer as follows:
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         let tabBarController = self.window?.rootViewController as? UITabBarController
