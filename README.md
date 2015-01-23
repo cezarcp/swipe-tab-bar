@@ -29,7 +29,11 @@ Include `SwipeTabBarControllerExtension.swift` in your project. Inside `applicat
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         let tabBarController = self.window?.rootViewController as? UITabBarController
-        tabBarController?.setupSwipeGestureRecognizers(cycleThroughTabs: true)
+        tabBarController?.setupSwipeGestureRecognizers()
         
         return true
     }
+
+To activate the behavior of cycling through tabs, use:
+
+        tabBarController?.setupSwipeGestureRecognizers(cycleThroughTabs: true)
