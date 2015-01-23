@@ -8,20 +8,25 @@ If you've used an iOS app with 5+ tabs on a iPhone 6+, you know that depending o
 
 #Implementation
 
-I've provided two versions"
+I've provided two versions, one in Objective-C and the other in Swift. They use a Category and an Extension respectively.
 
-##Objective-C 
-A simple `UITabBarController` subclass, which adds two gesture recognizers to its `UITabBar` to handle left and right swipes.
-
-##Swift
-Swift's version uses an extension instead of a subclass. The gesture recognizers are setup by calling a method on the `UITabBarController`
+Both add two `UISwipeGestureRecognizers` to the `UITabBar` and provides methods for handling swipes in each direction, with or without cycling behavior (going from the last to the first tab when swiping right and from the first to the last tab when swiping left)
 
 #Usage
 
 ##Objective-C
 
-Include both `SwipeTabBarController.h` and `SwipeTabBarController.m` in your project. Use SwipeTabBarController in place of UITabBarController, and done.
-You can also set the `cyclesThroughViewControllers` to alter the bahvior when swiping past the last/first tab. Defaults to `NO`
+Include `UITabBarController+Swipe.h` in your project and import it in the `AppDelegate` implementation. Setup the `UITabBarController` with:
+
+    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+        UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+        [tabBarController setupSwipeGestureRecognizersAllowCyclingThroughTabs:NO];
+        
+        return YES;
+    }
+To activate the cycling behavior, use:
+
+    [tabBarController setupSwipeGestureRecognizersAllowCyclingThroughTabs:YES];
 
 ##Swift
 
