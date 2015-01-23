@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="ViewController" customModule="SwipeTabBar_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="6wZ-eB-DUs" kind="relationship" relationship="viewControllers" id="VGm-Yx-IOd"/>
+                        <segue destination="c32-kJ-Iur" kind="relationship" relationship="viewControllers" id="BD9-QW-4iY"/>
+                        <segue destination="gdn-Us-0X9" kind="relationship" relationship="viewControllers" id="aa3-UZ-Dsf"/>
+                        <segue destination="mps-tO-OBv" kind="relationship" relationship="viewControllers" id="PVw-9q-c9D"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-216" y="1024"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6Qa-Re-13u">
+            <objects>
+                <viewController id="mps-tO-OBv" customClass="ViewController" customModule="SwipeTabBar_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tAC-Vx-8XV"/>
+                        <viewControllerLayoutGuide type="bottom" id="bpZ-Ij-WqS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zym-vo-nOd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="dYg-Mn-8BK">
+                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="dYg-Mn-8BK" secondAttribute="centerX" id="9XE-mE-8eA"/>
+                            <constraint firstAttribute="centerY" secondItem="dYg-Mn-8BK" secondAttribute="centerY" id="ZCr-ac-e3R"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="3OM-hC-DwZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dqh-w4-ufB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="2376"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fD0-Zk-rTq">
+            <objects>
+                <viewController id="gdn-Us-0X9" customClass="ViewController" customModule="SwipeTabBar_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dpl-N7-sIe"/>
+                        <viewControllerLayoutGuide type="bottom" id="MEa-NF-RlQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Scw-DK-nkV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="MCP-GR-2Ra">
+                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="MCP-GR-2Ra" secondAttribute="centerY" id="Lhz-iq-BhM"/>
+                            <constraint firstAttribute="centerX" secondItem="MCP-GR-2Ra" secondAttribute="centerX" id="iaH-uU-Sjt"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="Inq-aZ-lRU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xzW-4Q-HLh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1688"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jfL-aA-kMr">
+            <objects>
+                <viewController id="c32-kJ-Iur" customClass="ViewController" customModule="SwipeTabBar_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dEg-LT-ktS"/>
+                        <viewControllerLayoutGuide type="bottom" id="D2L-1C-T37"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d3u-Oq-F4A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Jo5-gj-W0q">
+                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Jo5-gj-W0q" secondAttribute="centerY" id="GXF-TW-ylT"/>
+                            <constraint firstAttribute="centerX" secondItem="Jo5-gj-W0q" secondAttribute="centerX" id="jZP-gU-AaW"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="T6Q-qg-ZqG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QmS-LE-8sZ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="996"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zwR-W4-E03">
+            <objects>
+                <viewController id="6wZ-eB-DUs" customClass="ViewController" customModule="SwipeTabBar_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hWL-XZ-Dvu"/>
+                        <viewControllerLayoutGuide type="bottom" id="SlG-Sr-4eI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bg5-96-eRP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FFX-bF-bIL">
+                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="FFX-bF-bIL" secondAttribute="centerX" id="PbM-JH-VQk"/>
+                            <constraint firstAttribute="centerY" secondItem="FFX-bF-bIL" secondAttribute="centerY" id="WRL-cw-9d4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="CH8-7n-L5s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMU-Bx-wjV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="328"/>
+        </scene>
+    </scenes>
+</document>
