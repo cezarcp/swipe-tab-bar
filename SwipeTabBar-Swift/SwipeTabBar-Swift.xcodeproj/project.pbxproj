@@ -159,6 +159,8 @@
 		F7B2BA731A7266AF00DD1FCA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Wavebits;
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				F7B2BA9E1A7266AF00DD1FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7B2BA9F1A7266AF00DD1FCA /* Build configuration list for PBXNativeTarget "SwipeTabBar-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				F7B2BAA11A7266AF00DD1FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
