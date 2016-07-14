@@ -41,4 +41,4 @@ Include `TabBarControllerSwipeExtension.swift` in your project. Inside `applicat
 
 To activate the behavior of cycling through tabs, use:
 
-        tabBarController?.setupSwipeGestureRecognizers(true)
+        tabBarController?.setupSwipeGestureRecognizers(allowCyclingThoughTabs: true)
